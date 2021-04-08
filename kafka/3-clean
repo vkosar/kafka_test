@@ -1,0 +1,4 @@
+#!/bin/sh
+
+docker-compose stop
+docker container rm kafka_kafka_1 kafka_zookeeper_1
